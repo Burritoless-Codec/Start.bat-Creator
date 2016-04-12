@@ -1,0 +1,10 @@
+c:\users\jblac_000\documents\visual studio 2015\Projects\startbateditor\startbateditor\bin\Debug\startbateditor.exe
+c:\users\jblac_000\documents\visual studio 2015\Projects\startbateditor\startbateditor\bin\Debug\startbateditor.pdb
+c:\users\jblac_000\documents\visual studio 2015\Projects\startbateditor\startbateditor\bin\Debug\startbateditor.xml
+c:\users\jblac_000\documents\visual studio 2015\Projects\startbateditor\startbateditor\obj\Debug\startbateditor.vbprojResolveAssemblyReference.cache
+c:\users\jblac_000\documents\visual studio 2015\Projects\startbateditor\startbateditor\obj\Debug\startbateditor.Resources.resources
+c:\users\jblac_000\documents\visual studio 2015\Projects\startbateditor\startbateditor\obj\Debug\startbateditor.vbproj.GenerateResource.Cache
+c:\users\jblac_000\documents\visual studio 2015\Projects\startbateditor\startbateditor\obj\Debug\startbateditor.exe
+c:\users\jblac_000\documents\visual studio 2015\Projects\startbateditor\startbateditor\obj\Debug\startbateditor.xml
+c:\users\jblac_000\documents\visual studio 2015\Projects\startbateditor\startbateditor\obj\Debug\startbateditor.pdb
+c:\users\jblac_000\documents\visual studio 2015\Projects\startbateditor\startbateditor\obj\Debug\startbateditor.Form1.resources
