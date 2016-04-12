@@ -47,14 +47,14 @@ Partial Class Form2
         Me.HuraForm1.ForeColor = System.Drawing.Color.Gray
         Me.HuraForm1.Location = New System.Drawing.Point(0, 0)
         Me.HuraForm1.Name = "HuraForm1"
-        Me.HuraForm1.Size = New System.Drawing.Size(540, 191)
+        Me.HuraForm1.Size = New System.Drawing.Size(540, 205)
         Me.HuraForm1.TabIndex = 0
         Me.HuraForm1.Text = "About"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(125, 157)
+        Me.Label3.Location = New System.Drawing.Point(125, 179)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(48, 17)
         Me.Label3.TabIndex = 4
@@ -63,7 +63,7 @@ Partial Class Form2
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(73, 157)
+        Me.Label2.Location = New System.Drawing.Point(73, 179)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(46, 17)
         Me.Label2.TabIndex = 3
@@ -72,7 +72,7 @@ Partial Class Form2
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 157)
+        Me.Label1.Location = New System.Drawing.Point(12, 179)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(55, 17)
         Me.Label1.TabIndex = 2
@@ -100,7 +100,7 @@ Partial Class Form2
         Me.RichTextBox1.Location = New System.Drawing.Point(12, 28)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.ReadOnly = True
-        Me.RichTextBox1.Size = New System.Drawing.Size(516, 126)
+        Me.RichTextBox1.Size = New System.Drawing.Size(516, 148)
         Me.RichTextBox1.TabIndex = 0
         Me.RichTextBox1.Text = resources.GetString("RichTextBox1.Text")
         '
@@ -108,7 +108,7 @@ Partial Class Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(540, 191)
+        Me.ClientSize = New System.Drawing.Size(540, 205)
         Me.ControlBox = False
         Me.Controls.Add(Me.HuraForm1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
