@@ -27,6 +27,7 @@ Partial Class Form1
         Me.HuraForm1 = New startbateditor.HuraForm()
         Me.HuraButton4 = New startbateditor.HuraButton()
         Me.HuraGroupBox1 = New startbateditor.HuraGroupBox()
+        Me.HuraButton5 = New startbateditor.HuraButton()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.HuraGroupBox4 = New startbateditor.HuraGroupBox()
         Me.HuraRadioButton4 = New startbateditor.HuraRadioButton()
@@ -47,7 +48,7 @@ Partial Class Form1
         Me.HuraButton2 = New startbateditor.HuraButton()
         Me.HuraButton1 = New startbateditor.HuraButton()
         Me.HuraTextBox1 = New startbateditor.HuraTextBox()
-        Me.HuraButton5 = New startbateditor.HuraButton()
+        Me.HuraButton6 = New startbateditor.HuraButton()
         Me.HuraForm1.SuspendLayout()
         Me.HuraGroupBox1.SuspendLayout()
         Me.HuraGroupBox4.SuspendLayout()
@@ -108,6 +109,21 @@ Partial Class Form1
         Me.HuraGroupBox1.Size = New System.Drawing.Size(419, 168)
         Me.HuraGroupBox1.TabIndex = 6
         Me.HuraGroupBox1.Text = "HuraGroupBox1"
+        '
+        'HuraButton5
+        '
+        Me.HuraButton5.BackColor = System.Drawing.Color.Transparent
+        Me.HuraButton5.BaseColour = System.Drawing.Color.White
+        Me.HuraButton5.BorderColour = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.HuraButton5.FontColour = System.Drawing.Color.FromArgb(CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer))
+        Me.HuraButton5.HoverColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.HuraButton5.Location = New System.Drawing.Point(87, 131)
+        Me.HuraButton5.Name = "HuraButton5"
+        Me.HuraButton5.PressedColour = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(245, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.HuraButton5.ProgressColour = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.HuraButton5.Size = New System.Drawing.Size(75, 30)
+        Me.HuraButton5.TabIndex = 20
+        Me.HuraButton5.Text = "About"
         '
         'TextBox1
         '
@@ -171,6 +187,7 @@ Partial Class Form1
         'HuraGroupBox3
         '
         Me.HuraGroupBox3.BackColor = System.Drawing.Color.White
+        Me.HuraGroupBox3.Controls.Add(Me.HuraButton6)
         Me.HuraGroupBox3.Controls.Add(Me.HuraTextBox2)
         Me.HuraGroupBox3.Controls.Add(Me.Label4)
         Me.HuraGroupBox3.Location = New System.Drawing.Point(83, 3)
@@ -376,20 +393,20 @@ Partial Class Form1
         Me.HuraTextBox1.TextColour = System.Drawing.Color.FromArgb(CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer))
         Me.HuraTextBox1.UseSystemPasswordChar = False
         '
-        'HuraButton5
+        'HuraButton6
         '
-        Me.HuraButton5.BackColor = System.Drawing.Color.Transparent
-        Me.HuraButton5.BaseColour = System.Drawing.Color.White
-        Me.HuraButton5.BorderColour = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(220, Byte), Integer))
-        Me.HuraButton5.FontColour = System.Drawing.Color.FromArgb(CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer))
-        Me.HuraButton5.HoverColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.HuraButton5.Location = New System.Drawing.Point(87, 131)
-        Me.HuraButton5.Name = "HuraButton5"
-        Me.HuraButton5.PressedColour = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(245, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.HuraButton5.ProgressColour = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.HuraButton5.Size = New System.Drawing.Size(75, 30)
-        Me.HuraButton5.TabIndex = 20
-        Me.HuraButton5.Text = "About"
+        Me.HuraButton6.BackColor = System.Drawing.Color.Transparent
+        Me.HuraButton6.BaseColour = System.Drawing.Color.White
+        Me.HuraButton6.BorderColour = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.HuraButton6.FontColour = System.Drawing.Color.FromArgb(CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer))
+        Me.HuraButton6.HoverColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.HuraButton6.Location = New System.Drawing.Point(101, 3)
+        Me.HuraButton6.Name = "HuraButton6"
+        Me.HuraButton6.PressedColour = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(245, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.HuraButton6.ProgressColour = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.HuraButton6.Size = New System.Drawing.Size(48, 17)
+        Me.HuraButton6.TabIndex = 21
+        Me.HuraButton6.Text = "Help"
         '
         'Form1
         '
@@ -441,4 +458,5 @@ Partial Class Form1
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents HuraButton4 As HuraButton
     Friend WithEvents HuraButton5 As HuraButton
+    Friend WithEvents HuraButton6 As HuraButton
 End Class

@@ -91,4 +91,8 @@
     Private Sub HuraButton5_Click(sender As Object, e As EventArgs) Handles HuraButton5.Click
         about.Show()
     End Sub
+
+    Private Sub HuraButton6_Click(sender As Object, e As EventArgs) Handles HuraButton6.Click
+        Help.show
+    End Sub
 End Class
