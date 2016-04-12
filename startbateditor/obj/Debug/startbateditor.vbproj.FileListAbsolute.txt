@@ -8,3 +8,4 @@ c:\users\jblac_000\documents\visual studio 2015\Projects\startbateditor\startbat
 c:\users\jblac_000\documents\visual studio 2015\Projects\startbateditor\startbateditor\obj\Debug\startbateditor.xml
 c:\users\jblac_000\documents\visual studio 2015\Projects\startbateditor\startbateditor\obj\Debug\startbateditor.pdb
 c:\users\jblac_000\documents\visual studio 2015\Projects\startbateditor\startbateditor\obj\Debug\startbateditor.Form1.resources
+c:\users\jblac_000\documents\visual studio 2015\Projects\startbateditor\startbateditor\obj\Debug\startbateditor.about.resources

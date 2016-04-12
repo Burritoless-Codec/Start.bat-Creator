@@ -87,4 +87,8 @@
     Private Sub HuraButton4_Click(sender As Object, e As EventArgs) Handles HuraButton4.Click
         Me.Close()
     End Sub
+
+    Private Sub HuraButton5_Click(sender As Object, e As EventArgs) Handles HuraButton5.Click
+        about.Show()
+    End Sub
 End Class
