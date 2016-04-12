@@ -5,7 +5,7 @@ Currently only avalible on windows but plan to move over to linux with no plans 
 
 
 # Downlaod Binary
-**[Download](https://github.com/MJGC-Jonathan/Start.bat-Creator/blob/master/startbateditor/bin/Debug/startbateditor.exe?raw=true)**
+**[Download](https://github.com/MJGC-Jonathan/Start.bat-Creator/raw/master/V1/startbateditor/startbateditor/bin/Debug/startbateditor.exe)**
 
 # Issues?
 **[Report Issues](https://github.com/MJGC-Jonathan/Start.bat-Creator/issues)**
