@@ -24,11 +24,11 @@ Partial Class Form2
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.HuraForm1 = New startbateditor.HuraForm()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
-        Me.HuraButton1 = New startbateditor.HuraButton()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.HuraButton1 = New startbateditor.HuraButton()
+        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.HuraForm1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -51,15 +51,32 @@ Partial Class Form2
         Me.HuraForm1.TabIndex = 0
         Me.HuraForm1.Text = "About"
         '
-        'RichTextBox1
+        'Label3
         '
-        Me.RichTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.RichTextBox1.Cursor = System.Windows.Forms.Cursors.No
-        Me.RichTextBox1.Location = New System.Drawing.Point(12, 28)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(516, 126)
-        Me.RichTextBox1.TabIndex = 0
-        Me.RichTextBox1.Text = resources.GetString("RichTextBox1.Text")
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(125, 157)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(48, 17)
+        Me.Label3.TabIndex = 4
+        Me.Label3.Text = "GitHub"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(73, 157)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(46, 17)
+        Me.Label2.TabIndex = 3
+        Me.Label2.Text = "Twitter"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(12, 157)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(55, 17)
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "Youtube"
         '
         'HuraButton1
         '
@@ -76,32 +93,16 @@ Partial Class Form2
         Me.HuraButton1.TabIndex = 1
         Me.HuraButton1.Text = "X"
         '
-        'Label1
+        'RichTextBox1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 157)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(55, 17)
-        Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Youtube"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(73, 157)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(46, 17)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Twitter"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(125, 157)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(48, 17)
-        Me.Label3.TabIndex = 4
-        Me.Label3.Text = "GitHub"
+        Me.RichTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.RichTextBox1.Cursor = System.Windows.Forms.Cursors.Default
+        Me.RichTextBox1.Location = New System.Drawing.Point(12, 28)
+        Me.RichTextBox1.Name = "RichTextBox1"
+        Me.RichTextBox1.ReadOnly = True
+        Me.RichTextBox1.Size = New System.Drawing.Size(516, 126)
+        Me.RichTextBox1.TabIndex = 0
+        Me.RichTextBox1.Text = resources.GetString("RichTextBox1.Text")
         '
         'Form2
         '

@@ -12,6 +12,6 @@
     End Sub
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
-        Process.Start("http://github.com/MJGC-Jonathan")
+        Process.Start("https://github.com/MJGC-Jonathan/Start.bat-Creator")
     End Sub
 End Class

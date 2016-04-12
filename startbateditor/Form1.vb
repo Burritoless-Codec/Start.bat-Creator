@@ -89,7 +89,7 @@
     End Sub
 
     Private Sub HuraButton5_Click(sender As Object, e As EventArgs) Handles HuraButton5.Click
-        about.Show()
+        Form2.Show()
     End Sub
 
     Private Sub HuraButton6_Click(sender As Object, e As EventArgs) Handles HuraButton6.Click
