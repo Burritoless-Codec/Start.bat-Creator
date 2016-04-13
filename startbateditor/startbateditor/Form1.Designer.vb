@@ -27,9 +27,11 @@ Partial Class Form1
         Me.HuraForm1 = New startbateditor.HuraForm()
         Me.HuraButton4 = New startbateditor.HuraButton()
         Me.HuraGroupBox1 = New startbateditor.HuraGroupBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.HuraButton5 = New startbateditor.HuraButton()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.HuraGroupBox4 = New startbateditor.HuraGroupBox()
+        Me.HuraComboBox2 = New startbateditor.HuraComboBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.HuraGroupBox3 = New startbateditor.HuraGroupBox()
         Me.HuraButton6 = New startbateditor.HuraButton()
@@ -43,8 +45,6 @@ Partial Class Form1
         Me.HuraButton2 = New startbateditor.HuraButton()
         Me.HuraButton1 = New startbateditor.HuraButton()
         Me.HuraTextBox1 = New startbateditor.HuraTextBox()
-        Me.HuraComboBox2 = New startbateditor.HuraComboBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.HuraForm1.SuspendLayout()
         Me.HuraGroupBox1.SuspendLayout()
         Me.HuraGroupBox4.SuspendLayout()
@@ -107,6 +107,14 @@ Partial Class Form1
         Me.HuraGroupBox1.TabIndex = 6
         Me.HuraGroupBox1.Text = "HuraGroupBox1"
         '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(147, 123)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(10, 24)
+        Me.TextBox2.TabIndex = 21
+        Me.TextBox2.Visible = False
+        '
         'HuraButton5
         '
         Me.HuraButton5.BackColor = System.Drawing.Color.Transparent
@@ -140,6 +148,22 @@ Partial Class Form1
         Me.HuraGroupBox4.Size = New System.Drawing.Size(114, 58)
         Me.HuraGroupBox4.TabIndex = 18
         Me.HuraGroupBox4.Text = "HuraGroupBox4"
+        '
+        'HuraComboBox2
+        '
+        Me.HuraComboBox2.AccentColor = System.Drawing.Color.FromArgb(CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer))
+        Me.HuraComboBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.HuraComboBox2.ColorScheme = startbateditor.HuraComboBox.ColorSchemes.Dark
+        Me.HuraComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.HuraComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.HuraComboBox2.Font = New System.Drawing.Font("Segoe UI", 9.5!)
+        Me.HuraComboBox2.ForeColor = System.Drawing.Color.White
+        Me.HuraComboBox2.FormattingEnabled = True
+        Me.HuraComboBox2.Items.AddRange(New Object() {"Online", "Offline"})
+        Me.HuraComboBox2.Location = New System.Drawing.Point(6, 27)
+        Me.HuraComboBox2.Name = "HuraComboBox2"
+        Me.HuraComboBox2.Size = New System.Drawing.Size(103, 25)
+        Me.HuraComboBox2.TabIndex = 18
         '
         'Label5
         '
@@ -226,7 +250,7 @@ Partial Class Form1
         Me.HuraComboBox1.ForeColor = System.Drawing.Color.White
         Me.HuraComboBox1.FormattingEnabled = True
         Me.HuraComboBox1.Items.AddRange(New Object() {"512 MB", "1 GB", "2 GB", "3 GB", "4 GB", "5 GB", "6 GB", "7 GB", "8 GB", "9 GB", "10 GB"})
-        Me.HuraComboBox1.Location = New System.Drawing.Point(3, 20)
+        Me.HuraComboBox1.Location = New System.Drawing.Point(3, 27)
         Me.HuraComboBox1.Name = "HuraComboBox1"
         Me.HuraComboBox1.Size = New System.Drawing.Size(103, 25)
         Me.HuraComboBox1.TabIndex = 17
@@ -310,30 +334,6 @@ Partial Class Form1
         Me.HuraTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.HuraTextBox1.TextColour = System.Drawing.Color.FromArgb(CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer))
         Me.HuraTextBox1.UseSystemPasswordChar = False
-        '
-        'HuraComboBox2
-        '
-        Me.HuraComboBox2.AccentColor = System.Drawing.Color.FromArgb(CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer))
-        Me.HuraComboBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.HuraComboBox2.ColorScheme = startbateditor.HuraComboBox.ColorSchemes.Dark
-        Me.HuraComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.HuraComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.HuraComboBox2.Font = New System.Drawing.Font("Segoe UI", 9.5!)
-        Me.HuraComboBox2.ForeColor = System.Drawing.Color.White
-        Me.HuraComboBox2.FormattingEnabled = True
-        Me.HuraComboBox2.Items.AddRange(New Object() {"Online", "Offline"})
-        Me.HuraComboBox2.Location = New System.Drawing.Point(6, 27)
-        Me.HuraComboBox2.Name = "HuraComboBox2"
-        Me.HuraComboBox2.Size = New System.Drawing.Size(103, 25)
-        Me.HuraComboBox2.TabIndex = 18
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(147, 123)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(10, 24)
-        Me.TextBox2.TabIndex = 21
-        Me.TextBox2.Visible = False
         '
         'Form1
         '
