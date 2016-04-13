@@ -12,7 +12,7 @@ V2
 **[Download](https://github.com/MJGC-Jonathan/Start.bat-Creator/raw/master/V2/startbateditor/startbateditor/bin/Debug/startbateditor.exe)**
 
 Daily Build
-**[Download](https://github.com/MJGC-Jonathan/Start.bat-Creator/raw/master/V2/startbateditor/startbateditor/bin/Debug/startbateditor.exe)**
+**[Download](https://github.com/MJGC-Jonathan/Start.bat-Creator/raw/master/startbateditor/startbateditor/bin/Debug/startbateditor.exe)**
 
 # Issues?
 **[Report Issues](https://github.com/MJGC-Jonathan/Start.bat-Creator/issues)**
