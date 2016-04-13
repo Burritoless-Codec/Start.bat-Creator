@@ -30,8 +30,6 @@ Partial Class Form1
         Me.HuraButton5 = New startbateditor.HuraButton()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.HuraGroupBox4 = New startbateditor.HuraGroupBox()
-        Me.HuraRadioButton4 = New startbateditor.HuraRadioButton()
-        Me.HuraRadioButton3 = New startbateditor.HuraRadioButton()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.HuraGroupBox3 = New startbateditor.HuraGroupBox()
         Me.HuraButton6 = New startbateditor.HuraButton()
@@ -45,6 +43,8 @@ Partial Class Form1
         Me.HuraButton2 = New startbateditor.HuraButton()
         Me.HuraButton1 = New startbateditor.HuraButton()
         Me.HuraTextBox1 = New startbateditor.HuraTextBox()
+        Me.HuraComboBox2 = New startbateditor.HuraComboBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.HuraForm1.SuspendLayout()
         Me.HuraGroupBox1.SuspendLayout()
         Me.HuraGroupBox4.SuspendLayout()
@@ -90,6 +90,7 @@ Partial Class Form1
         'HuraGroupBox1
         '
         Me.HuraGroupBox1.BackColor = System.Drawing.Color.White
+        Me.HuraGroupBox1.Controls.Add(Me.TextBox2)
         Me.HuraGroupBox1.Controls.Add(Me.HuraButton5)
         Me.HuraGroupBox1.Controls.Add(Me.TextBox1)
         Me.HuraGroupBox1.Controls.Add(Me.HuraGroupBox4)
@@ -132,44 +133,13 @@ Partial Class Form1
         'HuraGroupBox4
         '
         Me.HuraGroupBox4.BackColor = System.Drawing.Color.White
-        Me.HuraGroupBox4.Controls.Add(Me.HuraRadioButton4)
-        Me.HuraGroupBox4.Controls.Add(Me.HuraRadioButton3)
+        Me.HuraGroupBox4.Controls.Add(Me.HuraComboBox2)
         Me.HuraGroupBox4.Controls.Add(Me.Label5)
-        Me.HuraGroupBox4.Location = New System.Drawing.Point(270, 3)
+        Me.HuraGroupBox4.Location = New System.Drawing.Point(302, 3)
         Me.HuraGroupBox4.Name = "HuraGroupBox4"
-        Me.HuraGroupBox4.Size = New System.Drawing.Size(146, 58)
+        Me.HuraGroupBox4.Size = New System.Drawing.Size(114, 58)
         Me.HuraGroupBox4.TabIndex = 18
         Me.HuraGroupBox4.Text = "HuraGroupBox4"
-        '
-        'HuraRadioButton4
-        '
-        Me.HuraRadioButton4.BaseColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.HuraRadioButton4.BorderColour = System.Drawing.Color.FromArgb(CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer))
-        Me.HuraRadioButton4.Checked = False
-        Me.HuraRadioButton4.CheckedColour = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(220, Byte), Integer))
-        Me.HuraRadioButton4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.HuraRadioButton4.FontColour = System.Drawing.Color.FromArgb(CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer))
-        Me.HuraRadioButton4.HighlightColour = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.HuraRadioButton4.Location = New System.Drawing.Point(71, 24)
-        Me.HuraRadioButton4.Name = "HuraRadioButton4"
-        Me.HuraRadioButton4.Size = New System.Drawing.Size(65, 22)
-        Me.HuraRadioButton4.TabIndex = 19
-        Me.HuraRadioButton4.Text = "Offline"
-        '
-        'HuraRadioButton3
-        '
-        Me.HuraRadioButton3.BaseColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.HuraRadioButton3.BorderColour = System.Drawing.Color.FromArgb(CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer))
-        Me.HuraRadioButton3.Checked = False
-        Me.HuraRadioButton3.CheckedColour = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(220, Byte), Integer))
-        Me.HuraRadioButton3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.HuraRadioButton3.FontColour = System.Drawing.Color.FromArgb(CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer))
-        Me.HuraRadioButton3.HighlightColour = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.HuraRadioButton3.Location = New System.Drawing.Point(3, 23)
-        Me.HuraRadioButton3.Name = "HuraRadioButton3"
-        Me.HuraRadioButton3.Size = New System.Drawing.Size(68, 22)
-        Me.HuraRadioButton3.TabIndex = 18
-        Me.HuraRadioButton3.Text = "Online"
         '
         'Label5
         '
@@ -188,7 +158,7 @@ Partial Class Form1
         Me.HuraGroupBox3.Controls.Add(Me.Label4)
         Me.HuraGroupBox3.Location = New System.Drawing.Point(116, 3)
         Me.HuraGroupBox3.Name = "HuraGroupBox3"
-        Me.HuraGroupBox3.Size = New System.Drawing.Size(151, 58)
+        Me.HuraGroupBox3.Size = New System.Drawing.Size(183, 58)
         Me.HuraGroupBox3.TabIndex = 17
         Me.HuraGroupBox3.Text = "HuraGroupBox3"
         '
@@ -212,12 +182,12 @@ Partial Class Form1
         Me.HuraTextBox2.BackColor = System.Drawing.Color.Transparent
         Me.HuraTextBox2.BackgroundColour = System.Drawing.Color.White
         Me.HuraTextBox2.BorderColour = System.Drawing.Color.FromArgb(CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer))
-        Me.HuraTextBox2.Location = New System.Drawing.Point(6, 23)
+        Me.HuraTextBox2.Location = New System.Drawing.Point(5, 23)
         Me.HuraTextBox2.MaxLength = 32767
         Me.HuraTextBox2.Multiline = False
         Me.HuraTextBox2.Name = "HuraTextBox2"
         Me.HuraTextBox2.ReadOnly = False
-        Me.HuraTextBox2.Size = New System.Drawing.Size(139, 29)
+        Me.HuraTextBox2.Size = New System.Drawing.Size(174, 29)
         Me.HuraTextBox2.Style = startbateditor.HuraTextBox.Styles.Normal
         Me.HuraTextBox2.TabIndex = 18
         Me.HuraTextBox2.Text = "spigot-1.9.jar"
@@ -256,7 +226,7 @@ Partial Class Form1
         Me.HuraComboBox1.ForeColor = System.Drawing.Color.White
         Me.HuraComboBox1.FormattingEnabled = True
         Me.HuraComboBox1.Items.AddRange(New Object() {"512 MB", "1 GB", "2 GB", "3 GB", "4 GB", "5 GB", "6 GB", "7 GB", "8 GB", "9 GB", "10 GB"})
-        Me.HuraComboBox1.Location = New System.Drawing.Point(3, 27)
+        Me.HuraComboBox1.Location = New System.Drawing.Point(3, 20)
         Me.HuraComboBox1.Name = "HuraComboBox1"
         Me.HuraComboBox1.Size = New System.Drawing.Size(103, 25)
         Me.HuraComboBox1.TabIndex = 17
@@ -341,6 +311,30 @@ Partial Class Form1
         Me.HuraTextBox1.TextColour = System.Drawing.Color.FromArgb(CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer))
         Me.HuraTextBox1.UseSystemPasswordChar = False
         '
+        'HuraComboBox2
+        '
+        Me.HuraComboBox2.AccentColor = System.Drawing.Color.FromArgb(CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer))
+        Me.HuraComboBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.HuraComboBox2.ColorScheme = startbateditor.HuraComboBox.ColorSchemes.Dark
+        Me.HuraComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.HuraComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.HuraComboBox2.Font = New System.Drawing.Font("Segoe UI", 9.5!)
+        Me.HuraComboBox2.ForeColor = System.Drawing.Color.White
+        Me.HuraComboBox2.FormattingEnabled = True
+        Me.HuraComboBox2.Items.AddRange(New Object() {"Online", "Offline"})
+        Me.HuraComboBox2.Location = New System.Drawing.Point(6, 27)
+        Me.HuraComboBox2.Name = "HuraComboBox2"
+        Me.HuraComboBox2.Size = New System.Drawing.Size(103, 25)
+        Me.HuraComboBox2.TabIndex = 18
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(147, 123)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(10, 24)
+        Me.TextBox2.TabIndex = 21
+        Me.TextBox2.Visible = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -375,8 +369,6 @@ Partial Class Form1
     Friend WithEvents HuraButton1 As HuraButton
     Friend WithEvents HuraTextBox1 As HuraTextBox
     Friend WithEvents HuraGroupBox4 As HuraGroupBox
-    Friend WithEvents HuraRadioButton4 As HuraRadioButton
-    Friend WithEvents HuraRadioButton3 As HuraRadioButton
     Friend WithEvents Label5 As Label
     Friend WithEvents HuraGroupBox3 As HuraGroupBox
     Friend WithEvents HuraTextBox2 As HuraTextBox
@@ -388,4 +380,6 @@ Partial Class Form1
     Friend WithEvents HuraButton5 As HuraButton
     Friend WithEvents HuraButton6 As HuraButton
     Friend WithEvents HuraComboBox1 As HuraComboBox
+    Friend WithEvents HuraComboBox2 As HuraComboBox
+    Friend WithEvents TextBox2 As TextBox
 End Class
