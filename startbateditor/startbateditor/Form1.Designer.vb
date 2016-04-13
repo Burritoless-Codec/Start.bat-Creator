@@ -135,9 +135,9 @@ Partial Class Form1
         Me.HuraGroupBox4.Controls.Add(Me.HuraRadioButton4)
         Me.HuraGroupBox4.Controls.Add(Me.HuraRadioButton3)
         Me.HuraGroupBox4.Controls.Add(Me.Label5)
-        Me.HuraGroupBox4.Location = New System.Drawing.Point(241, 3)
+        Me.HuraGroupBox4.Location = New System.Drawing.Point(270, 3)
         Me.HuraGroupBox4.Name = "HuraGroupBox4"
-        Me.HuraGroupBox4.Size = New System.Drawing.Size(175, 58)
+        Me.HuraGroupBox4.Size = New System.Drawing.Size(146, 58)
         Me.HuraGroupBox4.TabIndex = 18
         Me.HuraGroupBox4.Text = "HuraGroupBox4"
         '
@@ -150,7 +150,7 @@ Partial Class Form1
         Me.HuraRadioButton4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.HuraRadioButton4.FontColour = System.Drawing.Color.FromArgb(CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer))
         Me.HuraRadioButton4.HighlightColour = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.HuraRadioButton4.Location = New System.Drawing.Point(82, 23)
+        Me.HuraRadioButton4.Location = New System.Drawing.Point(71, 24)
         Me.HuraRadioButton4.Name = "HuraRadioButton4"
         Me.HuraRadioButton4.Size = New System.Drawing.Size(65, 22)
         Me.HuraRadioButton4.TabIndex = 19
@@ -165,7 +165,7 @@ Partial Class Form1
         Me.HuraRadioButton3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.HuraRadioButton3.FontColour = System.Drawing.Color.FromArgb(CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer))
         Me.HuraRadioButton3.HighlightColour = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.HuraRadioButton3.Location = New System.Drawing.Point(8, 23)
+        Me.HuraRadioButton3.Location = New System.Drawing.Point(3, 23)
         Me.HuraRadioButton3.Name = "HuraRadioButton3"
         Me.HuraRadioButton3.Size = New System.Drawing.Size(68, 22)
         Me.HuraRadioButton3.TabIndex = 18
@@ -174,7 +174,7 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(5, 3)
+        Me.Label5.Location = New System.Drawing.Point(3, 3)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(88, 17)
         Me.Label5.TabIndex = 17
@@ -186,9 +186,9 @@ Partial Class Form1
         Me.HuraGroupBox3.Controls.Add(Me.HuraButton6)
         Me.HuraGroupBox3.Controls.Add(Me.HuraTextBox2)
         Me.HuraGroupBox3.Controls.Add(Me.Label4)
-        Me.HuraGroupBox3.Location = New System.Drawing.Point(93, 3)
+        Me.HuraGroupBox3.Location = New System.Drawing.Point(116, 3)
         Me.HuraGroupBox3.Name = "HuraGroupBox3"
-        Me.HuraGroupBox3.Size = New System.Drawing.Size(142, 58)
+        Me.HuraGroupBox3.Size = New System.Drawing.Size(151, 58)
         Me.HuraGroupBox3.TabIndex = 17
         Me.HuraGroupBox3.Text = "HuraGroupBox3"
         '
@@ -199,7 +199,7 @@ Partial Class Form1
         Me.HuraButton6.BorderColour = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(220, Byte), Integer))
         Me.HuraButton6.FontColour = System.Drawing.Color.FromArgb(CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer))
         Me.HuraButton6.HoverColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.HuraButton6.Location = New System.Drawing.Point(91, 3)
+        Me.HuraButton6.Location = New System.Drawing.Point(97, 3)
         Me.HuraButton6.Name = "HuraButton6"
         Me.HuraButton6.PressedColour = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(245, Byte), Integer), CType(CType(245, Byte), Integer))
         Me.HuraButton6.ProgressColour = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(255, Byte), Integer))
@@ -212,7 +212,7 @@ Partial Class Form1
         Me.HuraTextBox2.BackColor = System.Drawing.Color.Transparent
         Me.HuraTextBox2.BackgroundColour = System.Drawing.Color.White
         Me.HuraTextBox2.BorderColour = System.Drawing.Color.FromArgb(CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(180, Byte), Integer))
-        Me.HuraTextBox2.Location = New System.Drawing.Point(3, 23)
+        Me.HuraTextBox2.Location = New System.Drawing.Point(6, 23)
         Me.HuraTextBox2.MaxLength = 32767
         Me.HuraTextBox2.Multiline = False
         Me.HuraTextBox2.Name = "HuraTextBox2"
@@ -241,7 +241,7 @@ Partial Class Form1
         Me.HuraGroupBox2.Controls.Add(Me.Label3)
         Me.HuraGroupBox2.Location = New System.Drawing.Point(3, 3)
         Me.HuraGroupBox2.Name = "HuraGroupBox2"
-        Me.HuraGroupBox2.Size = New System.Drawing.Size(87, 58)
+        Me.HuraGroupBox2.Size = New System.Drawing.Size(110, 58)
         Me.HuraGroupBox2.TabIndex = 16
         Me.HuraGroupBox2.Text = "HuraGroupBox2"
         '
@@ -256,9 +256,9 @@ Partial Class Form1
         Me.HuraComboBox1.ForeColor = System.Drawing.Color.White
         Me.HuraComboBox1.FormattingEnabled = True
         Me.HuraComboBox1.Items.AddRange(New Object() {"512 MB", "1 GB", "2 GB", "3 GB", "4 GB", "5 GB", "6 GB", "7 GB", "8 GB", "9 GB", "10 GB"})
-        Me.HuraComboBox1.Location = New System.Drawing.Point(4, 27)
+        Me.HuraComboBox1.Location = New System.Drawing.Point(3, 27)
         Me.HuraComboBox1.Name = "HuraComboBox1"
-        Me.HuraComboBox1.Size = New System.Drawing.Size(80, 25)
+        Me.HuraComboBox1.Size = New System.Drawing.Size(103, 25)
         Me.HuraComboBox1.TabIndex = 17
         '
         'Label3
