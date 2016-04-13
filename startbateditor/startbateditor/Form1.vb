@@ -71,6 +71,8 @@
     End Sub
 
     Private Sub HuraButton3_Click(sender As Object, e As EventArgs) Handles HuraButton3.Click
+        HuraComboBox1.SelectedItem = ""
+        HuraComboBox2.SelectedItem = ""
         HuraTextBox1.Text = ""
     End Sub
 
