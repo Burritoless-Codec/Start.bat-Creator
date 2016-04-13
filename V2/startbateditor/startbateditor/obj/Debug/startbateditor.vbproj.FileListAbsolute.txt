@@ -22,3 +22,15 @@ C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\startbateditor\startbat
 C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\startbateditor\startbateditor\startbateditor\bin\Debug\startbateditor.exe
 C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\startbateditor\startbateditor\startbateditor\bin\Debug\startbateditor.pdb
 C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\startbateditor\startbateditor\startbateditor\bin\Debug\startbateditor.xml
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\startbateditor\V2\startbateditor\startbateditor\obj\Debug\startbateditor.exe
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\startbateditor\V2\startbateditor\startbateditor\obj\Debug\startbateditor.xml
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\startbateditor\V2\startbateditor\startbateditor\obj\Debug\startbateditor.pdb
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\startbateditor\V2\startbateditor\startbateditor\bin\Debug\startbateditor.exe
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\startbateditor\V2\startbateditor\startbateditor\bin\Debug\startbateditor.pdb
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\startbateditor\V2\startbateditor\startbateditor\bin\Debug\startbateditor.xml
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\startbateditor\V2\startbateditor\startbateditor\obj\Debug\startbateditor.vbprojResolveAssemblyReference.cache
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\startbateditor\V2\startbateditor\startbateditor\obj\Debug\startbateditor.Form1.resources
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\startbateditor\V2\startbateditor\startbateditor\obj\Debug\startbateditor.Form2.resources
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\startbateditor\V2\startbateditor\startbateditor\obj\Debug\startbateditor.help.resources
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\startbateditor\V2\startbateditor\startbateditor\obj\Debug\startbateditor.Resources.resources
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\startbateditor\V2\startbateditor\startbateditor\obj\Debug\startbateditor.vbproj.GenerateResource.Cache

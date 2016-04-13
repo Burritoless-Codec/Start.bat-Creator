@@ -134,14 +134,10 @@
     End Sub
 
     Private Sub HuraButton3_Click(sender As Object, e As EventArgs) Handles HuraButton3.Click
-        'HuraRadioButton1.Checked = False
-        'HuraRadioButton2.Checked = False
-        'HuraRadioButton3.Checked = False
-        'HuraRadioButton4.Checked = False
-        'HuraRadioButton5.Checked = False
-        'HuraRadioButton6.Checked = False
-        'HuraRadioButton7.Checked = False
-        'HuraTextBox1.Text = ""
+        HuraComboBox1.SelectedItem = ""
+        HuraRadioButton3.Checked = False
+        HuraRadioButton4.Checked = False
+        HuraTextBox1.Text = ""
     End Sub
 
     Private Sub HuraButton4_Click(sender As Object, e As EventArgs) Handles HuraButton4.Click
