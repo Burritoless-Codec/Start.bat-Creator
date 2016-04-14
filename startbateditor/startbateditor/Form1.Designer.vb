@@ -41,7 +41,6 @@ Partial Class Form1
         Me.HuraComboBox1 = New startbateditor.HuraComboBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.HuraButton3 = New startbateditor.HuraButton()
         Me.HuraButton2 = New startbateditor.HuraButton()
         Me.HuraButton1 = New startbateditor.HuraButton()
         Me.HuraTextBox1 = New startbateditor.HuraTextBox()
@@ -97,7 +96,6 @@ Partial Class Form1
         Me.HuraGroupBox1.Controls.Add(Me.HuraGroupBox3)
         Me.HuraGroupBox1.Controls.Add(Me.HuraGroupBox2)
         Me.HuraGroupBox1.Controls.Add(Me.Label2)
-        Me.HuraGroupBox1.Controls.Add(Me.HuraButton3)
         Me.HuraGroupBox1.Controls.Add(Me.HuraButton2)
         Me.HuraGroupBox1.Controls.Add(Me.HuraButton1)
         Me.HuraGroupBox1.Controls.Add(Me.HuraTextBox1)
@@ -273,21 +271,6 @@ Partial Class Form1
         Me.Label2.TabIndex = 10
         Me.Label2.Text = "Command:"
         '
-        'HuraButton3
-        '
-        Me.HuraButton3.BackColor = System.Drawing.Color.Transparent
-        Me.HuraButton3.BaseColour = System.Drawing.Color.White
-        Me.HuraButton3.BorderColour = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(220, Byte), Integer))
-        Me.HuraButton3.FontColour = System.Drawing.Color.FromArgb(CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(150, Byte), Integer))
-        Me.HuraButton3.HoverColour = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.HuraButton3.Location = New System.Drawing.Point(179, 117)
-        Me.HuraButton3.Name = "HuraButton3"
-        Me.HuraButton3.PressedColour = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(245, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.HuraButton3.ProgressColour = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.HuraButton3.Size = New System.Drawing.Size(75, 30)
-        Me.HuraButton3.TabIndex = 9
-        Me.HuraButton3.Text = "Clear"
-        '
         'HuraButton2
         '
         Me.HuraButton2.BackColor = System.Drawing.Color.Transparent
@@ -364,7 +347,6 @@ Partial Class Form1
     Friend WithEvents Timer1 As Timer
     Friend WithEvents HuraGroupBox1 As HuraGroupBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents HuraButton3 As HuraButton
     Friend WithEvents HuraButton2 As HuraButton
     Friend WithEvents HuraButton1 As HuraButton
     Friend WithEvents HuraTextBox1 As HuraTextBox

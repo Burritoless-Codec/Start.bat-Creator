@@ -70,14 +70,6 @@
         TextBox1.Copy()
     End Sub
 
-    Private Sub HuraButton3_Click(sender As Object, e As EventArgs) Handles HuraButton3.Click
-        HuraComboBox1.SelectedText = ""
-        HuraComboBox2.SelectedText = ""
-        HuraComboBox1.SelectedItem = ""
-        HuraComboBox2.SelectedItem = ""
-        HuraTextBox1.Text = ""
-    End Sub
-
     Private Sub HuraButton4_Click(sender As Object, e As EventArgs) Handles HuraButton4.Click
         Me.Close()
     End Sub
