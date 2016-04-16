@@ -3,6 +3,10 @@ Designed to help the people who want a server but dont know too much on how to d
 
 Currently only avalible on windows but plan to move over to linux with no plans for mac.
 
+Please Do not use More then half avalible ram.
+
+In the next couple of months I will be rolling out a new tool for mincraft servers, development on this tool will continue but be limited. The next tool will manage almost all aspects of the server all you will need to do is get plugins and the servers .jar
+
 
 # Download Binary
 V1
